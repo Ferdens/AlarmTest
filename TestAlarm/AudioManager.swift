@@ -75,35 +75,6 @@ class AudioManager: NSObject, AVAudioPlayerDelegate {
         player!.volume = 0.3
     }
     
-//    func playAudioInBackground(_ audioFile: URL) {
-//        if backgroundAudioPlayer != nil {
-//            if backgroundAudioPlayer!.isPlaying {
-//                backgroundAudioPlayer!.stop()
-//            }
-//        }
-//
-//        do {
-//            backgroundAudioPlayer = try AVAudioPlayer.init(contentsOf: audioFile)
-//
-//            do {
-//                try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback, with: .mixWithOthers)
-//            } catch {
-//            }
-//
-//            do {
-//                try AVAudioSession.sharedInstance().setActive(true)
-//            } catch {
-//            }
-//
-//        } catch {
-//        }
-//
-//        backgroundAudioPlayer!.delegate = self
-//        backgroundAudioPlayer!.prepareToPlay()
-//        backgroundAudioPlayer!.play()
-//        backgroundAudioPlayer!.volume = 0.3
-//    }
-    
     private func playVibrate() {
         if (vibrateTimer != nil) {
             vibrateTimer?.invalidate()
