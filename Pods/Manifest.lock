@@ -1,0 +1,20 @@
+PODS:
+  - DateTimePicker (1.2.1)
+  - Realm (2.10.1):
+    - Realm/Headers (= 2.10.1)
+  - Realm/Headers (2.10.1)
+  - RealmSwift (2.10.1):
+    - Realm (= 2.10.1)
+
+DEPENDENCIES:
+  - DateTimePicker
+  - RealmSwift (= 2.10.1)
+
+SPEC CHECKSUMS:
+  DateTimePicker: c7b10f7dfe6eb06014c88df964a0a994f246b791
+  Realm: fc7a317a5c2c9ba91f5f235ede4e2ea76e9eba0c
+  RealmSwift: 505ed6c15942a2e76f5cfa78a8667cfa997ee75b
+
+PODFILE CHECKSUM: b0131b6c6153bfd767641478742e7774835f2aed
+
+COCOAPODS: 1.4.0
